@@ -63,9 +63,14 @@ ul#folio {
   align-items: flex-start;
 }
 ul#folio li {
-  flex-basis: 20%;
-  /* border: 1px solid black; */
-  gap: 20px
+  flex:1 0 25%;
+  padding: 10px;
+  align-items: center;
+}
+
+ul#folio li img {
+  max-width: 100%;
+  height: auto;
 }
 main section h1 {
 text-transform: uppercase;
@@ -82,6 +87,11 @@ ul#logos {
 }
 ul#logos li {
   flex: 1 0 25%;
+  text-align: center;
+}
+ul#logos li img {
+  max-width: 100%;
+  height: auto;
 }
 .wrapper-colonnes {
   padding: 20px;
